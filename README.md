@@ -7,3 +7,4 @@ Self Balancing Robot using a 6-axis IMU to get the tilt angle. The tilt angle is
 - L298N Motor driver
 - JGA25-370 DC motor
 # Schematic
+![image](https://github.com/mazenelgabalawy/Self-Balancing-Robot-Using-PID-Controller/assets/72276135/e47e7323-81e1-4ff8-85cc-c4f51d2b9f83)
