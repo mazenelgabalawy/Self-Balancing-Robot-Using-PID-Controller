@@ -1,6 +1,9 @@
 # Self-Balancing-Robot-Using-PID-Controller
-We made a Self Balancing Robot by using a 6-axis IMU to get the tilt angle. A PID controller was used to finely control the motor speeds.
+Self Balancing Robot using a 6-axis IMU to get the tilt angle. The tilt angle is calculated using the accelerometer and using the gyroscope. These readings are then fused together to get a more accurate measurement. The error between the actual tilt angle and the desired tilt angle is then calculated, and a PID controller is used to finely adjust the speed of the motors.
 
-
-
- # Components
+# Components
+- Arduino Nano as the main controller
+- MPU6050: 3-axis Accelerometer + 3-axis Gyroscope
+- L298N Motor driver
+- JGA25-370 DC motor
+# Schematic
